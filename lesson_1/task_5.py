@@ -9,8 +9,7 @@ revenue = int(input("Укажите значение выручки: "))
 cost = int(input("Укажите значение издержек: "))
 
 if revenue > cost:
-    profit = revenue-cost
-    print("Выручка больше издержек")
+        print("Выручка больше издержек")
 elif revenue < cost:
     print("Издержки больше выручки")
 else:
