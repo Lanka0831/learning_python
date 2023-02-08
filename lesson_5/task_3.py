@@ -22,5 +22,5 @@ line = len(money)
 for number in money:
     total += number
 medium = total / line
-print(f'Средняя зарплата: {medium}')
+print(f'Средняя величина дохода: {medium}')
 
