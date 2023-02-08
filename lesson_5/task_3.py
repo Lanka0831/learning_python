@@ -9,7 +9,7 @@
 
 
 money = []
-with open('test.txt', 'r', encoding='utf-8') as f:
+with open('test_3.txt', 'r', encoding='utf-8') as f:
     print ('Оклад менее 20 тысяч имеют:')
     for i in f:
         b = i.split()
